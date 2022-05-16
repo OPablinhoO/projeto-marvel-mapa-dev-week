@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolha seu personagem</title>
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/fontes.css" />
+    <link rel="stylesheet" href="src/css/animacoes.css" />
+    <link rel="stylesheet" href="src/css/estilo.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img
+            src="src/imagens/thor.png"
+            alt="Personagem selecionado"
+            id="personagem-jogador-1"
+          />
+          <div class="nome">
+            <h2 id="nome-jogador-1">Deus do Trovao</h2>
+          </div>
+        </div>
+
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="thor" data-name="Thor">
+            <span class="tag">1P</span>
+            <img src="src/imagens/thor.jpg" alt="Personagem selecionado Thor" />
+          </li>
+
+          <li class="personagem" id="homem-de-ferro" data-name="Playboy">
+            <span class="tag">1P</span>
+            <img
+              src="src/imagens/homem-de-ferro.jpg"
+              alt="Personagem selecionado Homem de ferro"
+            />
+          </li>
+
+          <li class="personagem" id="viuva-negra" data-name="Viúva Negra">
+            <span class="tag">1P</span>
+            <img
+              src="src/imagens/viuva-negra.jpg"
+              alt="Personagem selecionado Viúva Negra"
+            />
+          </li>
+
+          <li class="personagem" id="hulk" data-name="Hulk">
+            <span class="tag">1P</span>
+            <img src="src/imagens/hulk.jpg" alt="Personagem selecionado Hulk" />
+          </li>
+
+          <li
+            class="personagem"
+            id="capitao-america"
+            data-name="Nacionalista-kun"
+          >
+            <span class="tag">1P</span>
+            <img
+              src="src/imagens/capitao-america.jpg"
+              alt="Personagem selecionado Capitão América"
+            />
+          </li>
+
+          <li
+            class="personagem jogador-2-selecionado"
+            id="ultron"
+            data-name="Maquina Sensata"
+          >
+            <span class="tag">2P</span>
+            <img
+              src="src/imagens/ultron.jpg"
+              alt="Personagem selecionado Ultron"
+            />
+          </li>
+
+          <li class="personagem" id="doutor-doom" data-name="Quem?">
+            <span class="tag">1P</span>
+            <img
+              src="src/imagens/doutor-doom.jpg"
+              alt="Personagem selecionado Doutor Doom"
+            />
+          </li>
+
+          <li class="personagem" id="nova" data-name="Nunca nem vi">
+            <span class="tag">1P</span>
+            <img src="src/imagens/nova.jpg" alt="Personagem selecionado Nova" />
+          </li>
+
+          <li class="personagem" id="fenix" data-name="???">
+            <span class="tag">1P</span>
+            <img
+              src="src/imagens/fenix.jpg"
+              alt="Personagem selecionado Fênix"
+            />
+          </li>
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img
+            src="src/imagens/ultron.png"
+            alt="Personagem selecionado"
+            id="personagem-jogador-2"
+          />
+          <div class="nome">
+            <h2>Maquina Psicopata</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
